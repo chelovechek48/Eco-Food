@@ -1,8 +1,13 @@
+@use '../../vars/' as *;
+
 .title {
   font-family: 'Yeseva One', serif;
+  line-height: 1;
 
   &__hero {
-    font-size: min(10vw, 6rem);
-    padding: min(10vw, 6rem);
+    font-size: min(15vw, 6rem);
+    padding: min(10vw, 6rem) $padding-container;
+    max-width: 55rem;
+    margin: 0 auto;
   }
 }
