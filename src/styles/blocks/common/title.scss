@@ -2,11 +2,12 @@
 
 .title {
   font-family: 'Yeseva One', serif;
+  font-weight: 400;
   line-height: 1;
 
   &__hero {
     font-size: min(15vw, 6rem);
-    padding: min(10vw, 6rem) $padding-container;
+    padding-top: max(2.5rem, 6vw);
     max-width: 55rem;
     margin: 0 auto;
   }
