@@ -1,0 +1,24 @@
+@use '../vars/' as *;
+
+.template {
+
+  &__container {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 2rem 4rem;
+    flex-wrap: wrap;
+  }
+
+  &__text {
+    flex: 1 1 25rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 2rem;
+  }
+
+  &__image {
+    width: 20rem;
+  }
+}
