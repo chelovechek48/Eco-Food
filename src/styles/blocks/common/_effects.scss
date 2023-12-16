@@ -1,11 +1,37 @@
 @use '../../vars/' as *;
 
 ._background {
+  &_white {
+    color: $black;
+    background-color: $white;
+  }
+  &_black {
+    color: $white;
+    background-color: $black;
+  }
   &_orange {
+    color: $black;
     background-color: $orange;
   }
+  &_green {
+    color: $black;
+    background-color: $green;
+  }
   &_red {
+    color: $black;
     background-color: $red;
+  }
+  &_lavanda {
+    color: $black;
+    background-color: $lavanda;
+  }
+  &_yellow {
+    color: $black;
+    background-color: $yellow;
+  }
+  &_pink {
+    color: $black;
+    background-color: $pink;
   }
 }
 

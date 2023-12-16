@@ -1,5 +1,48 @@
 @use '../vars/' as *;
 
 .catalog {
+  display: flex;
+  flex-direction: column;
+  gap: max(2.5rem, 4vw);
   
+  &__slide {
+    max-width: min(100vw - 2 * $padding-container, 22rem);
+  }
+
+  &__list {
+    padding: 0 $padding-container;
+  }
+
+  &__item {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1rem;
+    padding: 1.5rem;
+    @media (min-width: calc($mobile-small + 1px)) {
+      border-radius: 5rem 5rem 5rem 2rem;
+    }
+    @media (max-width: $mobile-small) {
+      border-radius: 2rem;
+    }
+  }
+
+  &__image {
+    object-fit: contain;
+    object-position: bottom;
+    width: 100%;
+    height: 100%;
+
+    &-wrapper {
+      padding: 1rem;
+      aspect-ratio: 1;
+      width: 100%;
+      height: 100%;
+    }
+  }
+
+  &__price {
+    font-size: 2rem;
+    font-weight: 500;
+  }
 }

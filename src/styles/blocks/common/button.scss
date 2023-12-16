@@ -1,8 +1,6 @@
 @use '../../vars/' as *;
 
 .button {
-  color: $white;
-  background-color: $black;
   font-size: 1.5rem;
   text-align: center;
   text-transform: uppercase;
@@ -13,6 +11,9 @@
       &_thin {
         padding: 0.25rem 4rem;
       }
+      &_normal {
+        padding: 0.5rem 4rem;
+      }
     }
   }
 
@@ -20,6 +21,10 @@
     &_height {
       &_thin {
         padding: 0.25rem 1rem;
+        width: 100%;
+      }
+      &_normal {
+        padding: 0.5rem 1rem;
         width: 100%;
       }
     }
