@@ -1,0 +1,42 @@
+@use '../vars/' as *;
+
+.header {
+  text-align: center;
+
+  &__container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+  }
+  
+  &__logo {
+    height: 10rem;
+    margin: 0 2rem;
+  }
+
+  &__aside {
+    font-size: 1rem;
+    color: $white;
+    background-color: $black;
+    padding: 0.75rem;
+    margin-bottom: 1.5rem;
+  }
+
+  &__menu {
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 1rem 2.5rem;
+    flex-wrap: wrap;
+    font-size: 1rem;
+    font-weight: 500;
+    text-transform: uppercase;
+  }
+
+  &__burger {
+    display: none;
+  }
+}
+

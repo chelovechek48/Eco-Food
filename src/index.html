@@ -7,9 +7,12 @@
   <title>Wild Souls - Eco Food</title>
 </head>
 <body>
-  <header class="header">
+  <header class="header _background_orange">
+    <aside class="header__aside">
+      Free shipping in Greece for Wild orders over 50 euros!
+    </aside>
     <nav class="header__container container">
-      <ul class="header__menu header__left">
+      <ul class="header__menu">
         <li><a class="header__link"
           href="#catalog"
           aria-label="перейти к продуктам">
@@ -25,43 +28,29 @@
           aria-label="перейти к нашему концепту магазина">
           Concept Store
         </a></li>
-      </ul>
-      <a href="" class="header__logo">
-        <img src="assets/icons/logo.svg" alt="100% чистые и натуральные продукты">
-      </a>
-      <ul class="header__menu header__right">
         <li><a class="header__link"
           href="#"
           aria-label="перейти к рецептам">
           Recipes
         </a></li>
-        <li><a class="header__link"
-          href="#"
-          aria-label="авторизироваться">
-          Log In
-        </a></li>
-        <li><a class="header__link"
-          href="#"
-          aria-label="открыть корзину с товарами">
-          Cart (0)
-        </a></li>
+        <button class="header__burger"
+          aria-label="открыть меню" data-label-close="закрыть меню">
+          <span class="header__burger-item"></span>
+          <span class="header__burger-item"></span>
+          <span class="header__burger-item"></span>
+        </button>
       </ul>
-      <button class="header__burger"
-        aria-label="открыть меню" data-label-close="закрыть меню">
-        <span class="header__burger-item"></span>
-        <span class="header__burger-item"></span>
-        <span class="header__burger-item"></span>
-      </button>
+      <a href="#" aria-label="перейти на главную страницу сайта">
+        <img class="header__logo"
+          src="assets/icons/logo.svg"
+          alt="100% чистые и натуральные продукты">
+      </a>
     </nav>
+    <h1 class="title title__hero">
+      Taste the Wild.
+      Find your Soul.
+    </h1>
   </header>
-  <section class="hero">
-    <div class="container">
-      <h1 class="title title__hero">
-        Taste the Wild.
-        Find your Soul.
-      </h1>
-    </div>
-  </section>
   <section id="catalog" class="catalog section _background_orange">
     <div class="template__text container">
       <img class="section__image"

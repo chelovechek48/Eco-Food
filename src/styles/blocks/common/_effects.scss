@@ -1,0 +1,10 @@
+@use '../../vars/' as *;
+
+._background {
+  &_orange {
+    background-color: $orange;
+  }
+  &_red {
+    background-color: $red;
+  }
+}
