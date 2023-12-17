@@ -3,7 +3,7 @@ import { Keyboard, Autoplay } from 'swiper/modules';
 
 import '../styles/plugins/swiper.scss';
 
-const swiper = new Swiper('.swiper', {
+const swiperProducts = new Swiper('.products-swiper', {
   modules: [Keyboard, Autoplay],
   keyboard: {
     enabled: true,
