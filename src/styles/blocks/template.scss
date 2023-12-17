@@ -40,12 +40,14 @@
   }
 
   &__swiper {
-    overflow: hidden;
     width: 100%;
     height: 30rem;
-    object-fit: cover;
-    object-position: center;
     border-radius: 5rem;
     border: 0.5rem dashed $black;
+    overflow: hidden;
+    &-slide {
+      object-fit: cover;
+      object-position: top;
+    }
   }
 }
