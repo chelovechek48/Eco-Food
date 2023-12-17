@@ -39,7 +39,8 @@
     border: 0.5rem dashed $black;
   }
 
-  &__image-long {
+  &__swiper {
+    overflow: hidden;
     width: 100%;
     height: 30rem;
     object-fit: cover;

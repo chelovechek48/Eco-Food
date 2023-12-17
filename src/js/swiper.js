@@ -17,3 +17,17 @@ const swiper = new Swiper('.swiper', {
   spaceBetween: 48,
   grabCursor: true,
 });
+
+const swiperTemplate = new Swiper('.template__swiper', {
+  modules: [Keyboard, Autoplay],
+  keyboard: {
+    enabled: true,
+  },
+  autoplay: {
+    enabled: true,
+    delay: 2000,
+  },
+  loop: true,
+  slidesPerView: 'auto',
+  grabCursor: true,
+});
