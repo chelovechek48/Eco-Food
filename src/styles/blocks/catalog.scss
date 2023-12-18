@@ -12,6 +12,7 @@
 
   &__list {
     padding: 0 $padding-container;
+    align-items: flex-end;
   }
 
   &__item {
@@ -33,13 +34,7 @@
     object-position: bottom;
     width: 100%;
     height: 100%;
-
-    &-wrapper {
-      padding: 1rem;
-      aspect-ratio: 1;
-      width: 100%;
-      height: 100%;
-    }
+    aspect-ratio: 1;
   }
 
   &__price {
