@@ -24,7 +24,7 @@ const swiperTemplate = new Swiper('.template__swiper', {
     enabled: true,
   },
   autoplay: {
-    enabled: false,
+    enabled: true,
     delay: 2000,
   },
   loop: true,
